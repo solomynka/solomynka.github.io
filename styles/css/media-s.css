@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap");
+@media screen and (max-width: 780px) {
+  .header {
+    width: 320px;
+    height: 540px;
+    padding: 20px 8px 0 24px;
+    background-image: url(../Image/Backgroundmed.png);
+    background-repeat: no-repeat;
+  }
+  .header_nav {
+    margin-left: 56px;
+  }
+  .header_nav_textleft {
+    display: none;
+  }
+  .header_centre {
+    margin-left: 0px;
+    margin-right: 7px;
+  }
+  .header_nav_textleft_media {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 98px;
+    margin-left: 67px;
+  }
+  .header_centre-1 {
+    width: 349px;
+    height: 52px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    line-height: 37px;
+  }
+  .header_centre-2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #F7F3F2;
+    margin-top: 25.5px;
+    line-height: 24px;
+    width: 276px;
+    text-align: center;
+  }
+  .header_centre-button {
+    width: 274px;
+    height: 40px;
+    margin-top: 15px;
+  }
+  .header_centre-button-3 {
+    margin-top: 3px;
+  }
+
+  .centre-text, .holiday_text_big {
+    margin-top: 36px;
+    margin-right: 7px;
+  }
+
+  .dream {
+    width: 311px;
+    height: 738px;
+    margin: 18px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .dream_1, .dream_3, .dream_2 {
+    width: 300px;
+    height: 240px;
+    background-image: url(../Image/Step1.3image.png);
+    padding: 0px 29px 16px 21px;
+    border-radius: 4px;
+  }
+  .dream_2 {
+    background-image: url(../Image/Step2.3image.png);
+  }
+  .dream_3 {
+    background-image: url(../Image/Step33image.png);
+  }
+  .dream_text_step {
+    margin-top: 45px;
+  }
+  .dream_text2_step {
+    margin-top: 24px;
+  }
+  .dream_text_step2 {
+    margin-top: 30px;
+  }
+
+  .centre-text_media-s {
+    width: 276px;
+    margin: 39px auto 16px;
+    line-height: 25.3px;
+  }
+
+  .sect_partner {
+    width: 299px;
+    margin: 0 auto;
+  }
+
+  .partner {
+    width: 266px;
+    height: 894px;
+    margin: 13px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .partner_media_small {
+    order: 2;
+    margin-top: 15px;
+  }
+  .partner_media_small-2 {
+    order: 1;
+    margin-top: 5px;
+  }
+  .partner_media_small-3 {
+    order: 3;
+  }
+  .partner_person {
+    width: 256px;
+  }
+  .partner_media2_centre {
+    margin-top: 16px;
+    margin-bottom: 1px;
+  }
+  .partner_button {
+    width: 280px;
+    height: 40px;
+    align-items: center;
+    margin: 30px 4px 0px;
+  }
+
+  .centre-text_media-s_idea {
+    margin: 0 auto;
+    width: 276px;
+    line-height: 27px;
+  }
+
+  .centre-text_media-s_1 {
+    margin-top: 33px;
+    margin-right: 12px;
+  }
+
+  .idea {
+    width: 313px;
+    height: 910px;
+    margin: 34px auto 0;
+  }
+  .idea_imag, .idea_imag_travell, .idea_imag_long, .idea_imag_long_Culture, .idea_imag_Games, .idea_imag_Extreme, .idea_imag_Healath {
+    background-image: url(../Image/Spotsssss.png);
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+  }
+  .idea_imag_Healath {
+    background-image: url(../Image/Healathsssssssssssss.png);
+  }
+  .idea_imag_Extreme {
+    background-image: url(../Image/Extremessssssssss.png);
+    padding: 0 54px 0 54px;
+  }
+  .idea_imag_Games {
+    background-image: url(../Image/Gamessssssss.png);
+  }
+  .idea_imag_long_Culture {
+    background-image: url(../Image/Culturesssssssss.png);
+    background-position: center;
+  }
+  .idea_imag_long {
+    background-image: url(../Image/Culturopyssss.png);
+  }
+  .idea_imag_travell {
+    background-image: url(../Image/GamesSSSSSSSSSSSS.png);
+  }
+  .idea_text {
+    display: none;
+  }
+
+  .holiday {
+    width: 300px;
+    height: 192px;
+  }
+  .holiday_text_big {
+    margin: 26px 10px 0 0;
+    line-height: 27px;
+  }
+  .holiday_text_small {
+    margin: 17px 10px 0 0;
+  }
+  .holiday_search {
+    width: 280px;
+    height: 90px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 12px 0px 0 5px;
+  }
+  .holiday_search_text {
+    width: 280px;
+  }
+  .holiday_button {
+    width: 280px;
+    margin-left: 0;
+  }
+
+  .footer {
+    width: 329px;
+    height: 204px;
+    margin: 39px auto;
+    border-top: 0;
+  }
+  .footer_block {
+    width: 320px;
+    height: 100%;
+    border-top: 2px solid #FF4E50;
+    margin-right: 10px;
+    padding-top: 22px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+  }
+  .footer_block_1 {
+    width: 122px;
+  }
+  .footer_block_1-2 {
+    display: block;
+    margin-top: 17px;
+  }
+  .footer_block_2 {
+    width: 187px;
+    height: 55px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0;
+  }
+  .footer_media_text {
+    display: none;
+  }
+  .footer_media_terms {
+    margin-left: 16px;
+  }
+  .footer_media_help {
+    margin-right: 18px;
+  }
+  .footer_block_3 {
+    width: 69px;
+  }
+  .footer_block_4 {
+    margin-top: 8px;
+  }
+  .footer_block_4_text {
+    text-align: center;
+  }
+}/*# sourceMappingURL=media-s.css.map */
