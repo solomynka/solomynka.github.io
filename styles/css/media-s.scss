@@ -1,0 +1,260 @@
+@import '../base/mixin';
+@import '../base/variables';
+
+@media screen and (max-width: 780px) {
+    .header{
+        width: 320px;
+        height: 540px;
+        padding: 20px 8px 0 24px;
+        background-image: url(../Image/Backgroundmed.png);
+        background-repeat: no-repeat;
+        &_nav{
+            margin-left: 56px;
+        }
+        &_nav_textleft{
+            display: none;
+        }
+        &_centre {
+            margin-left: 0px;
+            margin-right: 7px;
+        }
+        &_nav_textleft_media{
+            display: block;
+            @include fonts ($main-font, 20px, #FFFFFF);
+            font-weight: bold;
+            margin-top: 98px;
+            margin-left: 67px;
+        }
+        &_centre-1{
+            width: 349px;
+            height: 52px;
+            @include fonts ($main-font, 30px, #FFFFFF);
+            margin-top: 30px;
+            line-height: 37px;
+            
+        }
+        &_centre-2{
+            @include fonts ($sec-font, 18px, #F7F3F2); 
+            margin-top: 25.5px;
+            line-height: 24px;
+            width: 276px;
+            text-align: center;
+        }
+        &_centre-button {
+            width: 274px;
+            height: 40px;
+            margin-top: 15px;
+        }
+        &_centre-button-3{
+            margin-top: 3px;
+        }  
+    }
+    .centre-text{
+        margin-top: 36px;
+        margin-right: 7px;
+    }
+    .dream{
+        width: 311px;
+        height: 738px;
+        margin: 18px auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        &_1{
+            width: 300px;
+            height: 240px;
+            background-image: url(../Image/Step1.3image.png);
+            padding: 0px 29px 16px 21px;
+            border-radius: 4px;
+           
+        }
+        &_2{
+            @extend .dream_1;
+            background-image: url(../Image/Step2.3image.png);
+        }&_3{
+            @extend .dream_1;
+            background-image: url(../Image/Step33image.png);
+        }
+        &_text_step{
+            margin-top: 45px;
+        }
+        &_text2_step{
+            margin-top: 24px;
+        }
+        &_text_step2{
+            margin-top: 30px;
+        }   
+    }
+    .centre-text_media-s{
+        width: 276px;
+        margin: 39px auto 16px;
+        line-height: 25.3px;
+    }
+    .sect_partner{
+        width: 299px;
+        margin: 0 auto;
+    }
+    .partner{
+        width: 266px;
+        height: 894px;
+        margin: 13px auto 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        &_media_small{
+            order: 2;
+            margin-top: 15px;
+        }
+        &_media_small-2{
+            order: 1;
+            margin-top: 5px;
+        }
+        &_media_small-3{
+            order: 3;
+        }
+        &_person{
+            width: 256px;
+        }
+        &_media2_centre{
+            margin-top: 16px;
+            margin-bottom: 1px;
+        }
+        &_button{
+            width: 280px;
+            height: 40px;
+            align-items: center;
+            margin: 30px 4px 0px;
+        }
+    }
+    .centre-text_media-s_idea{
+        margin: 0 auto;
+        width: 276px;
+        line-height: 27px;
+    }
+    .centre-text_media-s_1{
+        margin-top: 33px;
+        margin-right: 12px;
+
+    }
+    .idea{
+        width: 313px;
+        height: 910px;
+        margin: 34px auto 0;
+
+        &_imag{
+            background-image: url(../Image/Spotsssss.png);
+            width: 300px;
+            height: 120px; 
+            border-radius: 4px; 
+        }
+        &_imag_Healath{
+            @extend .idea_imag;
+            background-image: url(../Image/Healathsssssssssssss.png);
+        }
+        &_imag_Extreme{
+            @extend .idea_imag;
+            background-image: url(../Image/Extremessssssssss.png);
+            padding: 0 54px 0 54px;
+        }
+        &_imag_Games{
+            @extend .idea_imag;
+            background-image: url(../Image/Gamessssssss.png);
+        }
+        &_imag_long_Culture{
+            @extend .idea_imag;
+            background-image: url(../Image/Culturesssssssss.png);
+            background-position: center;
+        }
+        &_imag_long{
+            @extend .idea_imag;
+            background-image: url(../Image/Culturopyssss.png);
+        }  
+        &_imag_travell{
+            @extend .idea_imag;
+            background-image: url(../Image/GamesSSSSSSSSSSSS.png);   
+        }
+        &_text{
+            display: none;
+        }
+    }
+    .holiday{
+        width: 300px;
+        height: 192px;
+        &_text_big{
+            @extend .centre-text;
+            margin: 26px 10px 0 0;
+            line-height: 27px;
+        }
+        &_text_small{
+            margin: 17px 10px 0 0;
+        }
+        &_search{
+            width: 280px;
+            height: 90px;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 12px 0px 0 5px;
+        }
+        &_search_text{
+            width: 280px;  
+        }
+        &_button{
+            width: 280px;
+            margin-left: 0;
+        }
+    } 
+    .footer{
+        width: 329px;
+        height: 204px;
+        margin: 39px auto;
+        border-top: 0;
+
+        &_block{
+            width: 320px;
+            height: 100%;
+            border-top: 2px solid #FF4E50;
+            margin-right: 10px;
+            padding-top: 22px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: normal;
+        }
+        &_block_1{
+            width: 122px;
+        }
+        &_block_1-2{
+            display: block;
+            margin-top: 17px;
+        }
+        &_block_2{
+            width: 187px;
+            height: 55px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;  
+            padding-bottom: 0; 
+        }
+        &_media_text{
+            display: none;
+        }
+        &_media_terms{
+            margin-left: 16px;
+        }
+        &_media_help{
+            margin-right: 18px;
+        }
+        &_block_3{
+            width: 69px;
+        }
+        &_block_4{
+            margin-top: 8px;
+        }
+        &_block_4_text{
+            text-align: center;
+        }
+        
+    }   
+    
+    
+}
